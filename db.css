@@ -1,0 +1,143 @@
+
+body {
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  color: #6c738b;
+  font-size: 12px;
+  background-color: white;
+}
+
+.header {
+  width: 100%;
+  color: #EFF0F4;
+  position: fixed;
+  z-index: 999;
+  padding: 5px 10px;
+  top: 0;
+  
+}
+.card{
+    height: 12rem; 
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    
+}
+
+.card_c{
+  height: 15rem;
+}
+
+.text-judul-db{
+    color:black; 
+    font-size:35px; 
+    font-weight:bold"
+}
+.logo-db{
+    width:160px;
+    height:40px;
+    margin-top:5px;
+    margin-left:-17px;
+}
+
+.Side {
+  background-color: white;
+  width: 100%;
+  color: #7272cf;
+}
+/*  */
+.dropdown-btn {
+  padding: 15px 10px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color:#B6B7B9; /* kasih warna tulisan side bar*/
+  display: block;
+  border: none;
+  background: none;
+  width: 15rem;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-btn:hover {
+  color:white;
+}
+
+.main {
+  margin-left: 200px; 
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+
+.dropdown-container {
+  display: none;
+  background-color:;
+  padding-left: 31px;
+  margin-left: 2px;
+  width: 15.2rem;
+  padding-top:2px;
+  margin-top: 0;
+  height: auto;
+  padding: 7px;
+  
+}
+
+
+.fa-caret-down {
+  float: right;
+  padding-right: 50px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .text-judul-db{
+        font-size: 30px;
+        font-weight: bold;
+        color:black;
+        position: absolute;
+        z-index: 1;
+        margin-left: 30rem;
+        margin-bottom: 20rem;
+        margin-top: 10rem;
+    }
+    .logo-db{
+        display: block;
+    }
+
+    
+}
+  @media screen and (min-width: 1100px) {
+    .text-judul-db{
+        font-size: 30px;
+        font-weight: bold;
+        color:black;
+    }
+    .logo-db{
+        display: block;
+        width: 160px;
+        height: 40px;
+        margin-top: 6px;
+        margin-left: -15px;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .text-judul-db{
+        font-size: 30px;
+        font-weight: bold;
+        color:black;
+    }
+    .logo-db{
+        display: block;
+        width: 160px;
+        height: 40px;
+        margin-top: 6px;
+        margin-left: -15px;
+    }
+  }
+
+  
+  
+  
